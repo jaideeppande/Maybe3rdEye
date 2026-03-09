@@ -1,2 +1,2 @@
 scrapy==2.14.1
-theHarvester @ git+https://github.com/laramies/theHarvester.git
+-e ../../third_party/theHarvester

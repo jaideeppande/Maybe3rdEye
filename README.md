@@ -64,7 +64,7 @@ python -m pip install -r .\Email-Scrape\Python\requirements-super.txt
 ### Python (manual)
 ```powershell
 python -m pip install scrapy
-python -m pip install -e .\external\theHarvester
+python -m pip install -e .\third_party\theHarvester
 ```
 
 ## Run

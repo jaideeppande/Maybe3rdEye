@@ -212,6 +212,7 @@ class TheHarvesterAdapter:
         candidates: list[Path] = []
 
         for parent in [this_file.parent, *this_file.parents]:
+            candidates.append(parent / "third_party" / "theHarvester")
             candidates.append(parent / "external" / "theHarvester")
 
         for candidate in candidates:
